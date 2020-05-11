@@ -23,4 +23,4 @@ form.addEventListener('submit', function (e) {
 const removeBtn = document.querySelector('#remove-btn');
 removeBtn.addEventListener('click', function () {
   gifDiv.innerHTML = '';
-})
+});
