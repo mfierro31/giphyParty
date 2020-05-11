@@ -5,7 +5,7 @@ const input = document.querySelector('#search');
 const gifDiv = document.querySelector('#gif-container');
 
 async function getGif(q, api_key) {
-  const res = await axios.get('http://api.giphy.com/v1/gifs/search', { params: { q, api_key } });
+  const res = await axios.get('https://api.giphy.com/v1/gifs/search', { params: { q, api_key } });
   const img = document.createElement('img');
   img.classList.add('m-3');
   img.classList.add('img-fluid');
